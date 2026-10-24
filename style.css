@@ -1,0 +1,40 @@
+body {
+    background-image: url("Graphics/Wall.png");
+}
+/*Classes n stuff*/
+
+/*Gretting*/
+.Gretting img{
+    width: 9%;
+    height: auto;
+    min-width: 68px;
+}
+
+/*Footer*/
+footer img {
+    width: 2%;
+    height: auto;
+    min-width: 32px;
+}
+
+/*other stuff*/
+img {
+    width: 10%;
+    height: auto;
+    min-width: 128px;
+}
+
+h2 {
+    color: green;
+    font-size: clamp(24, 2vw, 60px);
+}
+
+p {
+    color: magenta;
+    font-size: clamp(12px, 1.5vw, 30px);
+}
+
+a {
+    font-size: clamp(12px, 1.5vw, 30px);
+    color: gold;
+}
